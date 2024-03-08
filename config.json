@@ -1,0 +1,48 @@
+{
+    "botToken": "",
+    "commnadPrefix": "!",
+    "serverId": 12345678901010,
+    "ownerIds": [
+        12345678901010
+    ],
+    "channelTopupLog": 12345678901010,
+    "channelLikeLog": 12345678901010,
+    "submitChannelId": 12345678901010,
+    "roleAddEnable": false,
+    "roleAddRoleId": 12345678901010,
+    "phoneNumber": "000000000",
+    "embed": {
+        "imglogo": "https://cdn.discordapp.com/attachments/1119264367775600752/1200821343659241522/welcome_to_my_channel_1.gif?ex=65c79306&is=65b51e06&hm=c6c5f19294d93cfab72476602451fa6972ca34b7414c4d77b9370db6c9333e44&"
+    },
+    "configweb": {
+        "username": "",
+        "password": "",
+        "token": "",
+        "dtlike": {
+            "1": {
+                "name": "\u0e44\u0e25\u0e04\u0e4c\u0e04\u0e23\u0e31\u0e1a\u0e1c\u0e21\ud83c\udf29\ufe0f",
+                "price": 0.2
+            },
+            "2": {
+                "name": "\u0e43\u0e08",
+                "price": 0.3
+            },
+            "3": {
+                "name": "\u0e27\u0e49\u0e32\u0e27\u0e08\u0e49\u0e32",
+                "price": 0.3
+            },
+            "4": {
+                "name": "\u0e02\u0e33\u0e08\u0e49\u0e32",
+                "price": 0.3
+            },
+            "5": {
+                "name": "\u0e40\u0e28\u0e23\u0e49\u0e32\u0e08\u0e49\u0e32",
+                "price": 0.3
+            },
+            "6": {
+                "name": "\u0e42\u0e01\u0e23\u0e18\u0e08\u0e49\u0e32",
+                "price": 0.3
+            }
+        }
+    }
+}
