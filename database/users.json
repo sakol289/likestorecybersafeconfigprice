@@ -1,3 +1,16 @@
 {
-
+    "840473070598094849": {
+        "userId": 840473070598094849,
+        "point": 10,
+        "all-point": 10,
+        "spend": 0,
+        "history": [
+            {
+                "type": "user-topup",
+                "link": "https://gift.truemoney.com/campaign/?v=018f571ed3ae72829266360862d7275479u",
+                "amount": 10,
+                "time": "2024-05-08 14:36:20.689083"
+            }
+        ]
+    }
 }

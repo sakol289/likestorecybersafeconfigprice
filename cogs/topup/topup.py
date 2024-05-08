@@ -1,6 +1,5 @@
 import nextcord, httpx, certifi, json, datetime, re
 from nextcord.ext.commands import Bot, Cog
-# from config import channelTopupLog, roleAddEnable, roleAddRoleId, phoneNumber, serverId, ownerIds
 from Config import Config
 
 class topupModal(nextcord.ui.Modal):
@@ -160,7 +159,7 @@ class topupCog(Cog):
     @nextcord.slash_command(
         name='topup-setup',
         description='setup topup embed',
-        guild_ids=[Config().Get()['serverId']]
+        guild_ids=Config().Get()['serverId']
     )
     async def setup(
         self,
@@ -182,3 +181,4 @@ class topupCog(Cog):
 def setup(bot: Bot):
     bot.add_cog(topupCog(bot=bot))
     bot.add_view(topupView(bot=bot))
+    # pass
